@@ -471,7 +471,7 @@ address {
   margin-bottom: auto;
 }
 
-.mobile-menu .link {
+.mobile-menu__link {
   display: block;
   padding: 10px;
   color: #212121;
@@ -482,7 +482,7 @@ address {
   letter-spacing: 0.02em;
 }
 @media screen and (min-width: 480px) {
-  .mobile-menu .link {
+  .mobile-menu__link {
     font-size: 40px;
   }
 }
