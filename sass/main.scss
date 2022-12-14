@@ -5,7 +5,7 @@
 //base styles
 @import './base/base';
 @import './base/reset';
-    
+
 //components styles
 @import './components/section';
 @import './components/container';
@@ -13,6 +13,7 @@
 @import './components/typography';
 @import './components/logotype';
 @import './components/modal';
+@import './components/menu';
 
 //layout
 @import './layout/header';
@@ -23,4 +24,3 @@
 @import './layout/clients';
 @import './layout/footer';
 @import './layout/portfolio';
-
