@@ -104,7 +104,7 @@
   transition: color var(--o-transition-duration) var(--o-transition-timing-function);
 
   @media screen and (max-width: 768px) {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   @media screen and (min-width: 1200px) {

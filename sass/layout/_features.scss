@@ -33,6 +33,12 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   color: var(--text-color);
+
+  @media screen and (max-width: 480px) {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
 }
 
 .features__text {
