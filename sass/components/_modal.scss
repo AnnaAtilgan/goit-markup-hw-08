@@ -156,6 +156,11 @@
   transition: background-size var(--o-transition-duration) var(--o-transition-timing-function),
     background-color var(--o-transition-timing-function) var(--o-transition-duration),
     outline var(--o-transition-timing-function) var(--o-transition-duration);
+
+  @media screen and (max-width: 321px) {
+    width: 16px;
+    //margin-right: 13px;
+  }
 }
 
 .modal__form-checkbox:checked {

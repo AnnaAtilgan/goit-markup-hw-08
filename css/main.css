@@ -338,6 +338,11 @@ address {
   -webkit-transition: background-size var(--o-transition-duration) var(--o-transition-timing-function), background-color var(--o-transition-timing-function) var(--o-transition-duration), outline var(--o-transition-timing-function) var(--o-transition-duration);
   transition: background-size var(--o-transition-duration) var(--o-transition-timing-function), background-color var(--o-transition-timing-function) var(--o-transition-duration), outline var(--o-transition-timing-function) var(--o-transition-duration);
 }
+@media screen and (max-width: 321px) {
+  .modal__form-checkbox {
+    width: 16px;
+  }
+}
 
 .modal__form-checkbox:checked {
   outline: 2px solid var(--acsent-colour);
@@ -496,6 +501,11 @@ address {
   .mobile-menu__link {
     font-size: 40px;
   }
+}
+
+.mobile-menu__item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
 }
 
 .mobile-socials {
